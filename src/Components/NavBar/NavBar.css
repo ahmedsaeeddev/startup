@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 90%;
+    align-items: center;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #28AE71;
+    --secondary-color: #3E3E3E;
+}
+
+.links a {
+    padding: 10px;
+    margin: 10px;
+    color: var(--secondary-color);
+}
+
+.nav .logo img {
+    width: 50px;
+}
